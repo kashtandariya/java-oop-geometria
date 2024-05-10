@@ -16,8 +16,8 @@ public class Main {
 		Rettangolo rettangolo = new Rettangolo(base, altezza);
 		
 		//calcolo finale invocando i metodi
-		System.out.println("L'area del rettangolo corrisponde a" + rettangolo.calcolaArea());
-		System.out.println("Il perimetro del rettangolo corrisponde a" + rettangolo.calcolaPerimetro());		
+		System.out.println("L'area del rettangolo corrisponde a: " + rettangolo.calcolaArea());
+		System.out.println("Il perimetro del rettangolo corrisponde a: " + rettangolo.calcolaPerimetro());		
 		
 		scan.close();
 	}
