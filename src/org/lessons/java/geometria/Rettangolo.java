@@ -27,14 +27,14 @@ public class Rettangolo {
 	Mettiamo quindi delle condizioni if/else ecc in questi cicli for
 	*/
 	public void disegna () {
-		for (int i = 1; i <= this.altezza); i++) {
+		for (int i = 1; i <= this.altezza; i++) {
 			
 			for (int y = 1; y <= this.base; y++) {
 				
 				if (i == 1 || i == this.altezza) {
 					System.out.println("* ");
 					
-				} else if (y == 1 || y = this.base) {
+				} else if (y == 1 || y == this.base) {
 					System.out.println("* ");
 					
 				} else {
