@@ -32,17 +32,17 @@ public class Rettangolo {
 			for (int y = 1; y <= this.base; y++) {
 				
 				if (i == 1 || i == this.altezza) {
-					System.out.println("* ");
+					System.out.print("* ");
 					
 				} else if (y == 1 || y == this.base) {
-					System.out.println("* ");
+					System.out.print("* ");
 					
 				} else {
-					System.out.println("  ");
+					System.out.print("  ");
 				}
 				
 				if (y == this.base) {
-					System.out.println("\n");
+					System.out.print("\n");
 				}
 			}
 		}
